@@ -53,6 +53,8 @@ p {
   top: 0;
   left: 0;
   background: rgba(0, 0, 0, .);
+  backdrop-filter: blur(8px);
+  webkit-backdrop-filter: blur(8px);
   opacity: 0;
   transition: .5s;
   text-align: center;
